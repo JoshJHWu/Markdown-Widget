@@ -2,19 +2,32 @@
 <html>
 <head>
   <title></title>
-  <script src="./markdown.js"></script>
+  <script src="./js/markdown.js"></script>
   <script   src="https://code.jquery.com/jquery-2.2.3.js"  integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="   crossorigin="anonymous"></script>
-  <script src="./model.js"></script>
-  <script src="./view.js"></script>
-  <script src="./controller.js"></script>
-  <script src="./application.css"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="./js/model.js"></script>
+  <script src="./js/view.js"></script>
+  <script src="./js/controller.js"></script>
+  <script src="./css/application.css"></script>
 </head>
 <body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Markdown Widget</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://github.com/JoshJHWu/Markdown-Widget">Josh Wu</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div>
+  </nav>
   <div class='container'>
-    <h1>Enter text</h1>
     <textarea id="input" rows="4" cols="50"></textarea>
   </div>
-    <h1>Markdown Output</h1>
   <div id='output'>
   </div>
 </body>
