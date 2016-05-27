@@ -14,7 +14,7 @@
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#">Markdown Widget</a>
+        <a class="navbar-brand" href="#">README Helper</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -25,10 +25,47 @@
       </div><!-- /.navbar-collapse -->
     </div>
   </nav>
-  <div class='container'>
-    <textarea id="input" rows="4" cols="50"></textarea>
+  <div class="modal-body row">
+  <div class="col-md-6">
+      <div class='container'>
+        <textarea id="input" rows="50" cols="50">
+#Readme
+
+**This text will be bold**
+__This will also be bold__ 
+
+_You **can** combine them_
+
+*This text will be italic*
+_This will also be italic_
+
+####Make a list
+* This is a bullet point
+- This is also a bullet point
++ so is this!
+
+##Show some code
+
+open ``index.html``
+ 
+>def helloWorld
+
+
+     new line and indent for a box
+
+[Link](https://github.com/JoshJHWu/Markdown-Widget)
+
+![image](https://coderwall-assets-0.s3.amazonaws.com/uploads/picture/file/1932/gs.png)
+
+</textarea>
+      </div>
   </div>
-  <div id='output'>
+  <div class="col-md-6">
+      <div id='output'>
+      </div>
   </div>
+</div>
+
+
 </body>
 </html>

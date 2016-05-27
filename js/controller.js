@@ -1,5 +1,4 @@
 $(document).ready(function() {
-debugger;
   $('#input').keyup(function(event){
   var $target = $(event.target)
   console.log($target.val())
